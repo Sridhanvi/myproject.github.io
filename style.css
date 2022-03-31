@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 220, 254);
+    background-size: cover;
+}
+.nav{
+    width: 80%;
+    line-height: 1px;
+    text-align: center;
+}
+.nav li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+}
+.nav li a{
+     padding: 10px;
+     font-size: 18px;
+     text-decoration: none;
+     color: black;
+     transition: color 0.6s;
+}
+.nav li a:hover{
+    color: darkblue;
+}
+.box1{
+    width: 450px;
+    background-color: rgb(182, 110, 16);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color: cornsilk;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.intro{
+    background-color:rgb(82, 12, 82);
+    padding: 40px;
+    margin: auto;
+    margin-top: 0.5%;
+    color: white;
+    font-style: normal;
+}
+.intro h1{
+    font-size: 50px;
+    color: rgb(228, 58, 92);
+    text-align: center;
+    font-style: italic;
+}
+.intro p{
+    color: whitesmoke;
+    font-size: 25px;
+}
+.box2{
+    background-color: rgb(156, 156, 211);
+    padding: 40px;
+    margin: auto;
+    margin-top: 0%;
+    color: rgb(218, 205, 215);
+    
+}
+.box2 p{
+    color: whitesmoke;
+    font-size: 25px;
+}
+.box2 h1{
+    color: crimson;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+.box2 p b{
+    color:black;
+}
+.box3 h1{
+    color: crimson;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+.box4{
+    background-color: lightcoral;
+    align-items: center;
+}
+.box4 h1{
+    color: crimson;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+/*.box1-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-color: bisque;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+.box5{
+    background-color: lightpink;
+}
+.box5 h1{
+    color: crimson;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+.img1{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+.box6{
+    background-color: #f44336;
+}
+.box3 {
+    box-sizing:border-box;
+    width: 100%;
+    background-color: lightcyan;
+
+
+}
+/* Container for skill bars */
+.box3 .container {
+  width: 50%; /* Full width */
+  background-color: #ddd;
+  align-content: center; /* Grey background */
+}
+
+.skills {
+  text-align: center; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.c {width: 50%; background-color: #04AA6D;} /* Green */
+.java {width: 60%; background-color: #2196F3;} /* Blue */
+.python {width: 60%; background-color: #f44336;} /* Red */
+.algorithms {width: 55%; background-color: #808080;}
+.html {width: 65%; background-color:yellowgreen;} /* Dark Grey */
